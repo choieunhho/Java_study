@@ -1,0 +1,53 @@
+<Java 공부>
+
+[공부 내용]
+1. 자바(java)에서 변수(variable)란 어떠한 데이터 값을 담는 장소이다. 
+
+2. 데이터 값을 담을 변수를 생성할 때는 데이터 형식을 지정해주는데 이때 지정해주는 데이터 형식에는 다음과 같은 것들이 있다.
+ - char : 한 글자의 한글 or 영문 가능 , 반드시 ' '(싱글 따움표)를 사용해야한다.
+ - String : 여러 글자의 문자열 가능 , " "(쌍 따움표)를 사용해야한다. 
+ - byte : -128 ~ +127 까지 가능하다.
+ - short : -32768 ~ +32767까지 숫자가 가능하다.
+ - int : -21억 ~ +21억
+ - long : 여러 숫자 입력 가능
+ - float : //float 자료형을 사용하기 위해서는 소수점 선언 후 뒤에 반드시 f를 붙여줘야한다.
+ - double : float보다 훨씬 자유롭게 숫자를 입력할 수 있다.
+ - boolean : true or false를 입력하여 조건식에서 많이 사용한다. 
+
+3. println과 print의 차이점은 줄바꿈의 유무이다.
+
+
+[실행]
+public class data {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		char var1 = '최'; 
+		String var2 = "hi"; 
+		byte var3 = 7; 
+		short var4 = 3222; 
+		int var5 = 999999999; 
+		long var6 = 999999999; 
+		
+		float var7 = 0.5f; 
+		double var8 = 0.0000000005;
+    
+		boolean isStart = false;  
+		
+		System.out.println(var1);
+		System.out.println(var2);
+		
+		System.out.println(var3);
+		System.out.println(var4);
+		System.out.println(var5);
+		System.out.println(var6);
+		
+		System.out.println(var7);
+		System.out.println(var8);
+		
+		System.out.println(isStart);
+	}
+}
+
+[시행 착오]
+=> 없었다. 
