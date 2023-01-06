@@ -1,0 +1,24 @@
+<Java 공부>
+
+[공부 내용]
+1. 이클립스(eclipse)
+이클립스(Eclipse)는 가장 대표적인 자바의 개발도구다.
+통상 IDE라고 불리는 소프트웨어로 분류된다. IDE는 Integrated Development Environment로 한국어로는 통합 개발 환경이다.
+이클립스는 오픈소스이고, 무료이고, 또 모든 운영체제를 지원한다.
+
+[실행]
+public static void main(String[] args) { //메인 함수, 우선으로 실행되는 메소드
+		// TODO Auto-generated method stub
+		System.out.println("java study"); // 로그 출력
+	}
+
+[시행 착오]
+<eclipse default package 오류>
+1. [eclipse default package 오류 발생]
+=> 수업을 따라가면서 java class 생성을 하였다. 
+=> default package와 생성한 class에 빨간색 x표시와 함께 다음과 같은 오류가 발생하였다. 
+=> Must declare a named package because this compilation unit is associated to the named module 'java_practice'
+✔ default package가 아닌 연결된 모듈과 같은 이름의 package가 필요한 것이었다. 
+
+2. [오류 해결]
+=> java project를 생성할 시 Create module-info.java file 체크박스를 해제 해주었더니 해결됐다. 
