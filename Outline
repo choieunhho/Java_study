@@ -21,4 +21,4 @@ public static void main(String[] args) { //메인 함수, 우선으로 실행되
 ✔ default package가 아닌 연결된 모듈과 같은 이름의 package가 필요한 것이었다. 
 
 2. [오류 해결]
-=> java project를 생성할 시 Create module-info.java file 체크박스를 해제 해주었더니 해결됐다. 
+=> java project를 생성할 시 Create module-info.java file 체크박스를 해제 해주었더니 해결됐다.
